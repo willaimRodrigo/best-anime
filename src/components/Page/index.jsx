@@ -1,6 +1,8 @@
 import { LiAnime } from "../LiAnime"
 import { ListAnime } from "../ListAnime"
 
+import style from "./style.module.scss";
+
 
 export const Page = () => {
 
@@ -9,7 +11,10 @@ export const Page = () => {
             <main>
                <h1>Lista de Top Animes para maratonar</h1>
 
-                <LiAnime liAnime={ListAnime}/> 
+                <div className={style.ul_card}>
+                    <LiAnime liAnime={ListAnime}/>
+                </div>
+                 
             </main>
             
 

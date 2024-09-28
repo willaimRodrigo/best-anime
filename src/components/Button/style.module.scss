@@ -1,0 +1,10 @@
+button {
+    width: 80px;
+    border-radius: 5px;
+    background-color: rgb(44, 136, 223);
+    color: white;
+
+    @media (min-width: 768px) {
+        width: 120px;
+    }
+}

@@ -2,10 +2,39 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    
+
+    @media (min-width: 768px) {
+            flex-wrap: wrap;
+            align-items: normal;
+            margin: 50px;
+            gap: 30px;
+            
+        }
     
     h1 {
         font-size: 1.25rem;
         margin: 10px;
         color: rgb(85, 51, 51);
+
+        @media (min-width: 768px) {
+            text-align: center;
+            font-size: 2rem;
+        }
+    }
+
+    .ulcard {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        width: 100%;
+
+        @media (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+            overflow-x: scroll;
+            gap: 60px;
+        }
     }
 }

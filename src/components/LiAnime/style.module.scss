@@ -7,4 +7,11 @@
     min-width: 300px;
 
     gap: 20px;
+
+    @media (min-width: 768px) {
+       flex-direction: row; 
+       gap: 70px;
+
+       
+    }
 }
