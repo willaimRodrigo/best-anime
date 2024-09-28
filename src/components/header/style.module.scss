@@ -1,0 +1,31 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(183, 193, 206);
+    box-shadow: 0px 0px 15px 0px rgb(36, 36, 36);
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        border: solid 1px black;
+        border-radius: 25px;
+        width: 30px;
+        height: 30px;
+
+        background-color: rgb(216, 241, 233);
+        background: linear-gradient(45deg, rgb(6, 78, 212), rgb(240, 233, 222), rgb(240, 8, 8));
+    }
+
+    h2 {
+        margin-right: 20px;
+    }
+}
